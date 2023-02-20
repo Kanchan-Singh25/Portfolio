@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+#main{
+background-color: rgba(200, 206, 201, 0.893);
+}
+
+#image{
+   display:block;
+   max-width:100%;
+   margin:auto;
+
+}
+#img-caption{
+    text-align: center;
+    margin:20px;
+    font-family: cursive;
+
+   
+}
+#title{
+    text-align: center;
+    padding:10px;
+    font-size: 55px;
+    color:rgb(80, 83, 83);
+    
+}
+#sub-title{
+    text-align: center;
+    padding:10px;
+    font-size:20px;
+    font-family: cursive;
+    margin-bottom:12px;
+    color:grey;
+}
+
+/* tribute info */
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:22px;
+     
+    
+}
+#timeline{
+    margin:20px;
+}
+
+#footer{
+    color:rgb(98, 88, 88);
+    font-size:15px;
+    font-family: cursive;
+}

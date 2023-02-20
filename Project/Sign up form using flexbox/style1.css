@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.outer {
+  background-color: rgba(236, 234, 197, 0.756);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inner {
+  border: 4px solid  rgba(245, 243, 198, 0.756);;
+  border-radius: 6px;
+  box-shadow: 8px 8px 10px rgb(211, 207, 143);
+  background-color: rgba(221, 225, 182, 0.756);
+  padding: 10px;
+  width: 30%;
+  height: 67%;
+
+}
+
+.inner header h1 {
+  color: rgb(188, 176, 114);
+
+}
+
+.inner header p {
+
+  color: rgb(92, 91, 91);
+  margin: 2px 0px;
+}
+
+
+.main-body {
+  margin: 32px 0px;
+}
+
+.main-body div {
+  margin: 10px 0px;
+}
+
+.main-body div label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-body div label:hover {
+  color: rgb(120, 108, 108);
+}
+
+.main-body div input {
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.main-body div input[type="submit"] {
+  margin-top: 12px;
+  padding: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(128, 112, 10);
+  border-bottom: 2px solid white;
+  color: white;
+
+}
+
+.main-body div input[type="submit"]:hover {
+  background-color: rgb(200, 170, 93);
+}
+
+.inner footer {
+  text-align: center;
+
+}
